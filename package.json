@@ -1,0 +1,9 @@
+{
+  "name": "opencode-imagestripping-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Treat base64 images in OpenCode sessions as one-shot observations: strip them from outgoing model requests once their turn is over, preserve them as content-hashed files, and leave a path pointer so the session can re-read them later. Zero runtime dependencies.",
+  "main": "index.ts",
+  "license": "MIT",
+  "keywords": ["opencode", "opencode-plugin", "images", "context", "413"]
+}
